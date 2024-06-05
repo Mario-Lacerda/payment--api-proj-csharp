@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+
+/* HEADER */
+
+.swagger-ui .topbar {
+  background-color: #fff;
+  box-shadow: 0 2px 20px rgb(0 0 0 / 29%);
+}
+
+.topbar-wrapper img[alt="Swagger UI"] {
+  visibility: hidden;
+  display: none;
+}
+
+.swagger-ui .topbar .link:after {
+  content: 'Desafio Tech Pottencial';
+  font-family: Open Sans,"sans-serif";
+  color: #f26522;
+  visibility: visible;
+}
+
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+  font-family: Open Sans,"sans-serif";
+  font-size: 12px;
+  color: #f26522;
+  border: 2px solid #f26522;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 10px 25px;
+  flex: 1;
+}
+
+#swagger-ui .topbar .download-url-wrapper .select-label span {
+  color: #f26522;
+  font-size: 12px;
+  font-family: Open Sans,"sans-serif";
+  text-transform: uppercase;
+}
+
+/* BODY - Título e descrição */
+
+.swagger-ui {
+  background-color: #f5f4f4;
+}
+
+.swagger-ui .info { margin: 40px 0; }
+
+.swagger-ui .info .title {
+  font-family: Poppins,"sans-serif";
+  color: #070606;
+  font-size: 40px;
+}
+
+.swagger-ui .info .title small:first-child {
+  font-family: Poppins,"sans-serif";
+  background-color: #7a7a7a;
+}
+
+.swagger-ui .info .title small:last-child {
+  font-family: Poppins,"sans-serif";
+  background-color: #f26522;
+}
+
+.swagger-ui .info .link {
+  font-family: Poppins,"sans-serif";
+}
+
+.swagger-ui .info .description .renderedMarkdown p {
+  font-family: Open Sans,"sans-serif";
+  font-size: 16px;
+  color: #707070;
+}
+
+/*BODY - métodos de ação */
+/* BOX - fundo */
+
+.swagger-ui > div:nth-child(2) > div:nth-child(3) > section {
+  background-color: #fff;
+  border-radius: 35px;
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+  margin: 2% 2% 3%;
+  padding: 25px;
+}
+
+/* TÍTULO */
+
+.swagger-ui .opblock-tag {
+  font-family: Poppins,"sans-serif";
+  font-size: 26px;
+  color: #070606;
+  border-bottom: 1px solid #7a7a7a;
+}
+
+.swagger-ui .opblock-tag:hover {
+  background-color: transparent;
+}
+
+/* MÉTODOS */
+
+.swagger-ui .opblock, 
+.swagger-ui .opblock .opblock-summary-method {
+  border-radius: 30px;
+}
+
+.swagger-ui .opblock .opblock-summary {
+  padding: 6px 15px 6px 10px;
+}
+
+.swagger-ui .wrapper .block-desktop > div .operation-tag-content span,
+.swagger-ui .opblock .opblock-section-header h4,
+.swagger-ui .opblock-description-wrapper p {
+  font-family: Open Sans,"sans-serif";
+  letter-spacing: 1px;
+}
+
+.swagger-ui .wrapper .block-desktop > div .operation-tag-content button,
+.swagger-ui .models .models-control {
+  outline: none;
+}
+
+.swagger-ui .wrapper .block-desktop > div .operation-tag-content button:active,
+.swagger-ui .models .models-control:active {
+  outline: auto;
+  outline-offset: 3px;
+  border-radius: 30px;
+}
+
+.swagger-ui .opblock .opblock-section-header h4 {
+  font-size: 16px;
+}
+
+/* BOTÕES INTERNOS DOS MÉTODOS */
+
+.swagger-ui .btn, 
+.swagger-ui select.content-type,
+.swagger-ui .parameters-col_description select {
+  font-family: Open Sans,"sans-serif";
+  letter-spacing: 1px;
+  color: #7a7a7a;
+  background-color: #fff;
+  padding: 8px 23px;
+  border-radius: 30px;
+  border-bottom: 2px solid #707070;
+}
+
+.swagger-ui .btn.cancel {
+  background-color: transparent;
+  border-color: #f26522;
+  color: #f26522;
+  font-family: Open Sans,"sans-serif";
+}
+
+.swagger-ui .btn.execute, .swagger-ui .btn-group {
+  font-family: Open Sans,"sans-serif";
+  letter-spacing: 1px;
+}
+
+.swagger-ui .btn-group .btn:first-child {
+  border-radius: 30px 0 0 30px;
+}
+
+.swagger-ui .btn-group .btn:last-child {
+  border-radius: 0 30px 30px 0;
+  background-color: #fff;
+}
+
+/* TABELA - descrição do método */
+
+.swagger-ui table thead tr td, .swagger-ui table thead tr th,
+.swagger-ui table tbody tr td:first-of-type, 
+.swagger-ui .response-col_links
+{ 
+  padding: 17px 15px; 
+  font-family: Open Sans,"sans-serif";
+  font-size: 14px;
+}
+
+.swagger-ui table tbody tr td 
+{ padding: 17px 15px; }
+
+.swagger-ui .no-margin .renderedMarkdown p {
+  margin: 0 0 1em;
+}
+
+.swagger-ui input[type="text"] {
+  font-family: Open Sans,"sans-serif";
+  color: #7a7a7a;
+  padding: 8px 23px;
+  border-radius: 30px;
+}
+
+/* RESPONSE */
+
+.swagger-ui .response-col_status,
+.swagger-ui .response-col_links,
+.swagger-ui .tab li {
+  font-family: Open Sans,"sans-serif";
+  font-size: 14px;
+}
+
+.swagger-ui .response-control-media-type--accept-controller select {
+  border-color: #f26522;
+  border-radius: 30px;
+  padding: 8px 23px;
+  font-family: Open Sans,"sans-serif";
+  letter-spacing: 1px;
+}
+
+.swagger-ui .response-control-media-type__accept-message,
+.swagger-ui .prop-type {
+  color: #f26522;
+}
+
+.swagger-ui .opblock-body pre.microlight,
+.swagger-ui textarea {
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+/* GET */
+
+.swagger-ui .opblock.opblock-get {
+  margin-top: 10px;
+}
+
+/* PATCH */
+
+.swagger-ui .renderedMarkdown code {
+  color: #7a7a7a;
+  line-height: 1.6em;
+}
+
+/* POST */
+
+.swagger-ui .opblock.opblock-post .try-out.btn-group .try-out__btn 
+{ border-radius: 30px; }
+
+/* SCHEMAS */
+
+.swagger-ui section.models {
+  border: 1px solid #7a7a7aa0;
+  border-radius: 30px;
+  margin: 3%;
+}
+
+.swagger-ui section.models h4:hover {
+  background: transparent;
+}
+
+.swagger-ui .models .models-control {
+  font-family: Poppins,"sans-serif";
+  font-size: 18px;
+  color: #070606;
+  padding: 4px 5px 0 15px;
+}
+
+.swagger-ui section.models .model-container:first-of-type,
+.swagger-ui section.models .model-container,
+.swagger-ui section.models .model-container:last-of-type 
+{
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 0 10px 5px;
+}
+
+.swagger-ui .model-title,
+.swagger-ui .model {
+  font-family: Open Sans,"sans-serif";
+  font-size: 14px;
+  color: #707070;
+  line-height: 1.6em;
+  
+}
+
+.swagger-ui .wrapper { padding-bottom: 10px;}
